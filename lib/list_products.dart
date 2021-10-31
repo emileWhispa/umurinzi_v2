@@ -1,5 +1,5 @@
-import 'package:isiine/json/product.dart';
-import 'package:isiine/product_item.dart';
+import 'package:umurinzi/json/product.dart';
+import 'package:umurinzi/product_item.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

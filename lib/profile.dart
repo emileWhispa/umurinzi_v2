@@ -1,7 +1,7 @@
-import 'package:isiine/authentication.dart';
-import 'package:isiine/edit_profile.dart';
-import 'package:isiine/super_base.dart';
-import 'package:isiine/wish_list.dart';
+import 'package:umurinzi/authentication.dart';
+import 'package:umurinzi/edit_profile.dart';
+import 'package:umurinzi/super_base.dart';
+import 'package:umurinzi/wish_list.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
