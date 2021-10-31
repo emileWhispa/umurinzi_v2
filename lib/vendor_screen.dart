@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:isiine/super_base.dart';
-import 'package:isiine/vendor_product.dart';
+import 'package:umurinzi/super_base.dart';
+import 'package:umurinzi/vendor_product.dart';
 
 import 'json/order.dart';
 import 'json/vendor.dart';

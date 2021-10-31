@@ -2,18 +2,18 @@ import 'dart:convert';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:isiine/json/slide.dart';
-import 'package:isiine/json/vendor.dart';
-import 'package:isiine/list_products.dart';
-import 'package:isiine/product_details.dart';
-import 'package:isiine/product_item.dart';
-import 'package:isiine/search_delegate.dart';
-import 'package:isiine/search_product.dart';
+import 'package:umurinzi/json/slide.dart';
+import 'package:umurinzi/json/vendor.dart';
+import 'package:umurinzi/list_products.dart';
+import 'package:umurinzi/product_details.dart';
+import 'package:umurinzi/product_item.dart';
+import 'package:umurinzi/search_delegate.dart';
+import 'package:umurinzi/search_product.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:isiine/vendor_products.dart';
+import 'package:umurinzi/vendor_products.dart';
 
 import 'json/category.dart';
 import 'json/product.dart';

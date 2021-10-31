@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:isiine/json/order.dart';
-import 'package:isiine/json/order_history.dart';
-import 'package:isiine/order_details.dart';
-import 'package:isiine/super_base.dart';
+import 'package:umurinzi/json/order.dart';
+import 'package:umurinzi/json/order_history.dart';
+import 'package:umurinzi/order_details.dart';
+import 'package:umurinzi/super_base.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

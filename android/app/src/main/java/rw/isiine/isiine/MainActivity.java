@@ -1,4 +1,4 @@
-package rw.isiine.isiine;
+package rw.umurinzi.umurinzi;
 
 import io.flutter.embedding.android.FlutterActivity;
 
