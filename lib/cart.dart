@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:badges/badges.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:isiine/checkout_form.dart';
+import 'package:umurinzi/checkout_form.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';

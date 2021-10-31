@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:isiine/json/order_item.dart';
-import 'package:isiine/json/user.dart';
-import 'package:isiine/super_base.dart';
+import 'package:umurinzi/json/order_item.dart';
+import 'package:umurinzi/json/user.dart';
+import 'package:umurinzi/super_base.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

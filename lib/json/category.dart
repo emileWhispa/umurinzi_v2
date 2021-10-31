@@ -1,4 +1,4 @@
-import 'package:isiine/json/product.dart';
+import 'package:umurinzi/json/product.dart';
 
 class Category {
   String id;

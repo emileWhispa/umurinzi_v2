@@ -1,5 +1,5 @@
-import 'package:isiine/json/payment.dart';
-import 'package:isiine/super_base.dart';
+import 'package:umurinzi/json/payment.dart';
+import 'package:umurinzi/super_base.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -77,7 +77,7 @@ class _CheckoutFormState extends State<CheckoutForm> with Superbase {
     var _token = await findToken;
     return this.ajax(
         url:
-            "token?username=isiine&key=04dfe1f6e2d25c8073dc7237150f9fb67541186b&token=${_token ?? ""}",
+            "token?username=umurinzi&key=04dfe1f6e2d25c8073dc7237150f9fb67541186b&token=${_token ?? ""}",
         server: true,
         onValue: (source, url) async {
           _token = source['token'];
