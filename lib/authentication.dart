@@ -148,7 +148,7 @@ class _AuthenticationState extends State<Authentication> with Superbase {
                             style: ButtonStyle(
                                 elevation: MaterialStateProperty.all(1),
                                 backgroundColor: MaterialStateProperty.all(
-                                    Color(0xffe62e04)),
+                                    Color(0xffE7597B)),
                                 shape: MaterialStateProperty.all(
                                     RoundedRectangleBorder(
                                         borderRadius:
@@ -171,7 +171,7 @@ class _AuthenticationState extends State<Authentication> with Superbase {
                   child: Text(
                     "Don't have an Account ? Sign Up",
                     textAlign: TextAlign.center,
-                    style: TextStyle(color: Color(0xffe62e04)),
+                    style: TextStyle(color: Color(0xffE7597B)),
                   ),
                 ),
                 TextButton(
@@ -179,7 +179,7 @@ class _AuthenticationState extends State<Authentication> with Superbase {
                   child: Text(
                     "Forgot password ?",
                     textAlign: TextAlign.center,
-                    style: TextStyle(color: Color(0xffe62e04)),
+                    style: TextStyle(color: Color(0xffE7597B)),
                   ),
                 ),
                 Row(
@@ -187,21 +187,21 @@ class _AuthenticationState extends State<Authentication> with Superbase {
                     Expanded(
                         child: Container(
                       height: 2,
-                      color: Color(0xffe62e04),
+                      color: Color(0xffE7597B),
                     )),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
                         "OR",
                         style: TextStyle(
-                            color: Color(0xffe62e04),
+                            color: Color(0xffE7597B),
                             fontWeight: FontWeight.bold),
                       ),
                     ),
                     Expanded(
                         child: Container(
                       height: 2,
-                      color: Color(0xffe62e04),
+                      color: Color(0xffE7597B),
                     )),
                   ],
                 ),

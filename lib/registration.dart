@@ -344,7 +344,7 @@ class _RegistrationState extends State<Registration> with Superbase {
                             style: ButtonStyle(
                                 elevation: MaterialStateProperty.all(1),
                                 backgroundColor: MaterialStateProperty.all(
-                                    Color(0xffe62e04)),
+                                    Color(0xffE7597B)),
                                 shape: MaterialStateProperty.all(
                                     RoundedRectangleBorder(
                                         borderRadius:
@@ -367,7 +367,7 @@ class _RegistrationState extends State<Registration> with Superbase {
                   child: Text(
                     "Already have an Account ? Sign In",
                     textAlign: TextAlign.center,
-                    style: TextStyle(color: Color(0xffe62e04)),
+                    style: TextStyle(color: Color(0xffE7597B)),
                   ),
                 ),
                 Row(
@@ -382,7 +382,7 @@ class _RegistrationState extends State<Registration> with Superbase {
                       child: Text(
                         "OR",
                         style: TextStyle(
-                            color: Color(0xffe62e04),
+                            color: Color(0xffE7597B),
                             fontWeight: FontWeight.bold),
                       ),
                     ),

@@ -275,7 +275,7 @@ class _EditProfileState extends State<EditProfile> with Superbase {
                             style: ButtonStyle(
                                 elevation: MaterialStateProperty.all(1),
                                 backgroundColor: MaterialStateProperty.all(
-                                    Color(0xffe62e04)),
+                                    Color(0xffE7597B)),
                                 shape: MaterialStateProperty.all(
                                     RoundedRectangleBorder(
                                         borderRadius:

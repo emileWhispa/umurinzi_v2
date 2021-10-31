@@ -35,7 +35,8 @@ class MyApp extends StatelessWidget {
           // or simply save your changes to "hot reload" in a Flutter IDE).
           // Notice that the counter didn't reset back to zero; the application
           // is not restarted.
-          primarySwatch: Colors.red,
+          primarySwatch: Colors.pink,
+          primaryColor: Color(0xffE7597B),
           scaffoldBackgroundColor: Colors.grey.shade200,
           appBarTheme: AppBarTheme(
               actionsIconTheme: IconThemeData(color: Colors.red),
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
                       ?.copyWith(color: Colors.black)),
               iconTheme: IconThemeData(color: Colors.red),
               backgroundColor: Colors.white)),
-      home: MyHomePage(title: 'China kigali'),
+      home: MyHomePage(title: 'Umurinzi'),
     );
   }
 }
