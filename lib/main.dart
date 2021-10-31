@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:isiine/authentication.dart';
-import 'package:isiine/cart.dart';
-import 'package:isiine/categories.dart';
-import 'package:isiine/products.dart';
-import 'package:isiine/profile.dart';
-import 'package:isiine/super_base.dart';
+import 'package:umurinzi/authentication.dart';
+import 'package:umurinzi/cart.dart';
+import 'package:umurinzi/categories.dart';
+import 'package:umurinzi/products.dart';
+import 'package:umurinzi/profile.dart';
+import 'package:umurinzi/super_base.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart';
@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> with Superbase {
     _token = await findToken;
     this.ajax(
         url:
-            "token?username=isiine&key=04dfe1f6e2d25c8073dc7237150f9fb67541186b&token=${_token ?? ""}",
+            "token?username=umurinzi&key=04dfe1f6e2d25c8073dc7237150f9fb67541186b&token=${_token ?? ""}",
         server: true,
         onValue: (source, url) async {
           _token = source['token'];

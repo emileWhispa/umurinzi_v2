@@ -1,6 +1,6 @@
-import 'package:isiine/json/category.dart';
-import 'package:isiine/product_item.dart';
-import 'package:isiine/super_base.dart';
+import 'package:umurinzi/json/category.dart';
+import 'package:umurinzi/product_item.dart';
+import 'package:umurinzi/super_base.dart';
 import 'package:flutter/material.dart';
 
 import 'json/product.dart';
